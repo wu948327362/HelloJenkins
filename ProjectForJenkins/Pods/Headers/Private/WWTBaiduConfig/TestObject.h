@@ -1,0 +1,1 @@
+../../../WWTBaiduConfig/WWTBaiduConfig/publicClass/TestObject.h

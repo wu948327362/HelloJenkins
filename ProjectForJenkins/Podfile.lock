@@ -1,5 +1,5 @@
 PODS:
-  - WWTBaiduConfig (0.0.2)
+  - WWTBaiduConfig (0.0.3)
 
 DEPENDENCIES:
   - WWTBaiduConfig (~> 0.0.2)
@@ -9,7 +9,7 @@ SPEC REPOS:
     - WWTBaiduConfig
 
 SPEC CHECKSUMS:
-  WWTBaiduConfig: 011f213c9dd99476fd1bdf44c81ed75047b39a19
+  WWTBaiduConfig: fb74cc3b9da18f02cb4c6a438f589b9a40ab9452
 
 PODFILE CHECKSUM: 940e3152e70bbeeb936ee22a1447d6d220ad32f7
 

@@ -1,1 +1,1 @@
-../../../WWTBaiduConfig/WWTBaiduConfig/WWTBaiduConfig.h
+../../../WWTBaiduConfig/WWTBaiduConfig/publicClass/WWTBaiduConfig.h
