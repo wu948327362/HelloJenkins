@@ -1,16 +1,20 @@
 PODS:
+  - Masonry (1.1.0)
   - WWTBaiduConfig (0.0.3)
 
 DEPENDENCIES:
-  - WWTBaiduConfig (~> 0.0.2)
+  - Masonry (~> 1.1.0)
+  - WWTBaiduConfig (~> 0.0.3)
 
 SPEC REPOS:
   trunk:
+    - Masonry
     - WWTBaiduConfig
 
 SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   WWTBaiduConfig: fb74cc3b9da18f02cb4c6a438f589b9a40ab9452
 
-PODFILE CHECKSUM: 940e3152e70bbeeb936ee22a1447d6d220ad32f7
+PODFILE CHECKSUM: f2c222aad0a7cb9406b02fc3adecc311755df7f9
 
 COCOAPODS: 1.10.1
