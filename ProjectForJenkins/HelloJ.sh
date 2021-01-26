@@ -9,6 +9,7 @@ CODE_SIGN_DISTRIBUTION="iPhone Distribution: Baidu cloud computing technology (B
 project_infoplist_path="./${APP_NAME}/Info.plist"
 #取版本号
 bundleShortVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionString" "${project_infoplist_path}")
+echo ${project_infoplist_path}
 #取build值
 bundleVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${project_infoplist_path}")
 DATE="$(date +%Y%m%d)"
