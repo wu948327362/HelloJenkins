@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA02079EC598BD51587D3565256D057F /* Pods-ProjectForJenkins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2D423B8ACC434182F4869BF4466E69 /* Pods-ProjectForJenkins-dummy.m */; };
+		005FFE7D43237B68AD3E2F258109BFDD /* WWTBaiduConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C81588A90ED438F0ED42964C2A6654B5 /* WWTBaiduConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B93186D7ED7B73AE965615A180B72D5 /* WWTBaiduConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07600D4DC0D4298DF1A721A1F81163E8 /* WWTBaiduConfig-dummy.m */; };
+		D1A12D3612303C0C213AC6DE45ABB6E0 /* WWTBaiduConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E447A520812C2C80CAF3F082AA7EB /* WWTBaiduConfig.m */; };
+		F28E09FF24718B455F7B35F5769BF793 /* Pods-ProjectForJenkins-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2D423B8ACC434182F4869BF4466E69 /* Pods-ProjectForJenkins-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ECC32F317ADEE1B868D3765F43F96B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878A1494D6499CC5DDBA286F09086B2;
+			remoteInfo = WWTBaiduConfig;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		07600D4DC0D4298DF1A721A1F81163E8 /* WWTBaiduConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWTBaiduConfig-dummy.m"; sourceTree = "<group>"; };
+		1C2341345FECFAA410ABF96965113149 /* WWTBaiduConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWTBaiduConfig-prefix.pch"; sourceTree = "<group>"; };
+		27B17489A3ADB14CDBDC4308CD45B21F /* WWTBaiduConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWTBaiduConfig.release.xcconfig; sourceTree = "<group>"; };
 		317C2AE84609F00246996A7B0C8F67AF /* Pods-ProjectForJenkins-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProjectForJenkins-acknowledgements.markdown"; sourceTree = "<group>"; };
 		416A5993B5A4DEB540F76FAC815F0523 /* Pods-ProjectForJenkins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectForJenkins.release.xcconfig"; sourceTree = "<group>"; };
+		52AA54054D3CC81BED88D7AAF43E2132 /* WWTBaiduConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WWTBaiduConfig.debug.xcconfig; sourceTree = "<group>"; };
+		6229FADA72CD7AD9A5361539EA4FF3DE /* libWWTBaiduConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWWTBaiduConfig.a; path = libWWTBaiduConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7E447A520812C2C80CAF3F082AA7EB /* WWTBaiduConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WWTBaiduConfig.m; path = WWTBaiduConfig/WWTBaiduConfig.m; sourceTree = "<group>"; };
 		8DD0D65EC3818A0CBF8FFB243F8CD46B /* libPods-ProjectForJenkins.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ProjectForJenkins.a"; path = "libPods-ProjectForJenkins.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F999ED9497C7392845E70CEEE969D7 /* Pods-ProjectForJenkins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProjectForJenkins.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1517E6E435937B68608ECCDFA5B5803 /* Pods-ProjectForJenkins-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProjectForJenkins-acknowledgements.plist"; sourceTree = "<group>"; };
+		C81588A90ED438F0ED42964C2A6654B5 /* WWTBaiduConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WWTBaiduConfig.h; path = WWTBaiduConfig/WWTBaiduConfig.h; sourceTree = "<group>"; };
 		DA2D423B8ACC434182F4869BF4466E69 /* Pods-ProjectForJenkins-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProjectForJenkins-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		950B7EA8E4E1FC4894683B3D54852E77 /* Frameworks */ = {
+		3988BAFA4ED9A7299077B422A3AB46FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5345BFBB4B7D086D8941FF038696B41C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +58,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1360A09614CF7FA652D5F35E31FBFF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0D65EC3818A0CBF8FFB243F8CD46B /* libPods-ProjectForJenkins.a */,
+				6229FADA72CD7AD9A5361539EA4FF3DE /* libWWTBaiduConfig.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		174E0C278539411FF7D60DCB5AAFB20E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07600D4DC0D4298DF1A721A1F81163E8 /* WWTBaiduConfig-dummy.m */,
+				1C2341345FECFAA410ABF96965113149 /* WWTBaiduConfig-prefix.pch */,
+				52AA54054D3CC81BED88D7AAF43E2132 /* WWTBaiduConfig.debug.xcconfig */,
+				27B17489A3ADB14CDBDC4308CD45B21F /* WWTBaiduConfig.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WWTBaiduConfig";
+			sourceTree = "<group>";
+		};
+		1D0E66EFD0E0B3C44B569FB7D3AFA462 /* WWTBaiduConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C81588A90ED438F0ED42964C2A6654B5 /* WWTBaiduConfig.h */,
+				6C7E447A520812C2C80CAF3F082AA7EB /* WWTBaiduConfig.m */,
+				174E0C278539411FF7D60DCB5AAFB20E /* Support Files */,
+			);
+			name = WWTBaiduConfig;
+			path = WWTBaiduConfig;
+			sourceTree = "<group>";
+		};
 		26DEFDAD9A7E9E5B150F43471E32E3C2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,12 +111,12 @@
 			path = "Target Support Files/Pods-ProjectForJenkins";
 			sourceTree = "<group>";
 		};
-		AB6A94BB8AD0C3C22E64D574E3C19AD6 /* Products */ = {
+		798465597CD1067A5F5A8CE008371014 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DD0D65EC3818A0CBF8FFB243F8CD46B /* libPods-ProjectForJenkins.a */,
+				1D0E66EFD0E0B3C44B569FB7D3AFA462 /* WWTBaiduConfig */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -65,7 +124,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				AB6A94BB8AD0C3C22E64D574E3C19AD6 /* Products */,
+				798465597CD1067A5F5A8CE008371014 /* Pods */,
+				1360A09614CF7FA652D5F35E31FBFF51 /* Products */,
 				26DEFDAD9A7E9E5B150F43471E32E3C2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +140,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D45387104D7AD0F3C56102AC79097343 /* Headers */ = {
+		05BC50F8AC0E40DCDFF46D1D90F60FA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005FFE7D43237B68AD3E2F258109BFDD /* WWTBaiduConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B747298E68124A8774A39718A2B805 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,17 +158,35 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EB776EC7F60704387519206C23D415A2 /* Pods-ProjectForJenkins */ = {
+		1878A1494D6499CC5DDBA286F09086B2 /* WWTBaiduConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99EB3B0F3B95F6ACBD047927B5FC4DFF /* Build configuration list for PBXNativeTarget "Pods-ProjectForJenkins" */;
+			buildConfigurationList = 8CDB26908366D98FA6FD60E950056E0C /* Build configuration list for PBXNativeTarget "WWTBaiduConfig" */;
 			buildPhases = (
-				D45387104D7AD0F3C56102AC79097343 /* Headers */,
-				F2B80A8F0A5D665C35AAAD8694C79111 /* Sources */,
-				950B7EA8E4E1FC4894683B3D54852E77 /* Frameworks */,
+				05BC50F8AC0E40DCDFF46D1D90F60FA6 /* Headers */,
+				3B3E0F255BFA5D41D53AF4BD4B0E0767 /* Sources */,
+				5345BFBB4B7D086D8941FF038696B41C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = WWTBaiduConfig;
+			productName = WWTBaiduConfig;
+			productReference = 6229FADA72CD7AD9A5361539EA4FF3DE /* libWWTBaiduConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB776EC7F60704387519206C23D415A2 /* Pods-ProjectForJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A04E811CDCEDB0E79379AE3AE9F21 /* Build configuration list for PBXNativeTarget "Pods-ProjectForJenkins" */;
+			buildPhases = (
+				D9B747298E68124A8774A39718A2B805 /* Headers */,
+				4C789C0683D0FEECA0E019D4890E006E /* Sources */,
+				3988BAFA4ED9A7299077B422A3AB46FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB53377754D1CD9A35D86AE249D89DE7 /* PBXTargetDependency */,
 			);
 			name = "Pods-ProjectForJenkins";
 			productName = "Pods-ProjectForJenkins";
@@ -125,25 +211,44 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AB6A94BB8AD0C3C22E64D574E3C19AD6 /* Products */;
+			productRefGroup = 1360A09614CF7FA652D5F35E31FBFF51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EB776EC7F60704387519206C23D415A2 /* Pods-ProjectForJenkins */,
+				1878A1494D6499CC5DDBA286F09086B2 /* WWTBaiduConfig */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F2B80A8F0A5D665C35AAAD8694C79111 /* Sources */ = {
+		3B3E0F255BFA5D41D53AF4BD4B0E0767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA02079EC598BD51587D3565256D057F /* Pods-ProjectForJenkins-dummy.m in Sources */,
+				5B93186D7ED7B73AE965615A180B72D5 /* WWTBaiduConfig-dummy.m in Sources */,
+				D1A12D3612303C0C213AC6DE45ABB6E0 /* WWTBaiduConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C789C0683D0FEECA0E019D4890E006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28E09FF24718B455F7B35F5769BF793 /* Pods-ProjectForJenkins-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB53377754D1CD9A35D86AE249D89DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WWTBaiduConfig;
+			target = 1878A1494D6499CC5DDBA286F09086B2 /* WWTBaiduConfig */;
+			targetProxy = ECC32F317ADEE1B868D3765F43F96B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
@@ -212,22 +317,24 @@
 			};
 			name = Debug;
 		};
-		5F314C6629B30ECA6C75DA852D9118AA /* Release */ = {
+		9A10EEAA200C503F966CC312A2AD7779 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 416A5993B5A4DEB540F76FAC815F0523 /* Pods-ProjectForJenkins.release.xcconfig */;
+			baseConfigurationReference = 27B17489A3ADB14CDBDC4308CD45B21F /* WWTBaiduConfig.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WWTBaiduConfig/WWTBaiduConfig-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WWTBaiduConfig;
+				PRODUCT_NAME = WWTBaiduConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -295,7 +402,7 @@
 			};
 			name = Release;
 		};
-		EF3FCFA174FAF9158C826FCBF47947CB /* Debug */ = {
+		E7C609573ED8DD84A7972BC8DE28BE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92F999ED9497C7392845E70CEEE969D7 /* Pods-ProjectForJenkins.debug.xcconfig */;
 			buildSettings = {
@@ -315,6 +422,49 @@
 			};
 			name = Debug;
 		};
+		F19171F53303B1A2D0279AEEFE0D8A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52AA54054D3CC81BED88D7AAF43E2132 /* WWTBaiduConfig.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WWTBaiduConfig/WWTBaiduConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WWTBaiduConfig;
+				PRODUCT_NAME = WWTBaiduConfig;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F508586E0B14BE706D90AE00619AC04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416A5993B5A4DEB540F76FAC815F0523 /* Pods-ProjectForJenkins.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,11 +477,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99EB3B0F3B95F6ACBD047927B5FC4DFF /* Build configuration list for PBXNativeTarget "Pods-ProjectForJenkins" */ = {
+		8CDB26908366D98FA6FD60E950056E0C /* Build configuration list for PBXNativeTarget "WWTBaiduConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF3FCFA174FAF9158C826FCBF47947CB /* Debug */,
-				5F314C6629B30ECA6C75DA852D9118AA /* Release */,
+				F19171F53303B1A2D0279AEEFE0D8A9F /* Debug */,
+				9A10EEAA200C503F966CC312A2AD7779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A04E811CDCEDB0E79379AE3AE9F21 /* Build configuration list for PBXNativeTarget "Pods-ProjectForJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C609573ED8DD84A7972BC8DE28BE74 /* Debug */,
+				F508586E0B14BE706D90AE00619AC04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
