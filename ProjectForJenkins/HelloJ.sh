@@ -4,12 +4,12 @@ echo "Hello World!JenkinsHello World!JenkinsHello World!JenkinsHello World!Jenki
 # 工程名
 APP_NAME="ProjectForJenkins"
 # 证书
-CODE_SIGN_DISTRIBUTION="iPhone Distribution: Baidu cloud computing technology (Beijing) Co., Ltd."
+CODE_SIGN_DISTRIBUTION="Apple Development"
 # info.plist路径
-project_infoplist_path="./${APP_NAME}/Info.plist"
+curPath=$(cd "$(dirname "$0")"; pwd)
+project_infoplist_path="${curPath}/${APP_NAME}/Info.plist"
 #取版本号
 bundleShortVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionString" "${project_infoplist_path}")
-echo ${project_infoplist_path}
 #取build值
 bundleVersion=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${project_infoplist_path}")
 DATE="$(date +%Y%m%d)"
@@ -25,7 +25,7 @@ echo "${IPA_PATH}">> text.txt
 #xcodebuild -target "${APP_NAME}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${CODE_SIGN_DISTRIBUTION}" SYMROOT='$(PWD)'
 //下面2行是集成有Cocopods的用法
 echo "=================clean================="
-xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}"  -configuration 'Release' clean
+xcodebuild -workspace "${curPath}/${APP_NAME}.xcworkspace" -scheme "${APP_NAME}"  -configuration 'Release' clean
 echo "+++++++++++++++++build+++++++++++++++++"
-xcodebuild -workspace "${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${CODE_SIGN_DISTRIBUTION}" SYMROOT='$(PWD)'
+xcodebuild -workspace "${curPath}/${APP_NAME}.xcworkspace" -scheme "${APP_NAME}" -sdk iphoneos -configuration 'Release' CODE_SIGN_IDENTITY="${CODE_SIGN_DISTRIBUTION}" SYMROOT='$(PWD)'
 xcrun -sdk iphoneos PackageApplication "./Release-iphoneos/${APP_NAME}.app" -o ~/"${IPANAME}"
